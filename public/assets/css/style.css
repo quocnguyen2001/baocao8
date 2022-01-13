@@ -1,0 +1,1366 @@
+ 
+    @font-face {
+        font-family: iCielKoni;
+        font-weight: 900;
+        src: url("../../assets/fontawesome/iCielKoniBlack.otf") format("opentype");
+    }
+    
+    @font-face {
+        font-family: Montserrat;
+        font-weight: bold;
+        src: url("../../assets/fontawesome/Montserrat-Bold.ttf") format("opentype");
+    }
+    
+    
+    body {
+        margin: 0;
+        box-sizing: border-box;
+        background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+        background-repeat: no-repeat;
+        min-height: 1000px;
+    
+    
+    }
+    
+    /* header css */
+    header {
+        filter: drop-shadow(-1px 17px 10px rgba(50, 50, 0, 0.3));
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        z-index: 99;
+    }
+    
+    .navigation {
+        position: relative;
+        z-index: 99 !important;
+        width: 100%;
+        height: 107.82px;
+        left: 0px;
+        top: 0px;
+        -webkit-clip-path: ellipse(65% 70% at 50% 31%);
+        clip-path: ellipse(65% 70% at 50% 31%);
+        background: #ED7200;
+        font-size: 18px;
+    }
+    
+    .container-custom {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    
+    
+    .div-logo {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+    
+    .div-logo img {
+        width: 229px;
+        height: 91px;
+    }
+    
+    .nav-header li a {
+        border: #ED7200 2px solid;
+        border-radius: 30px;
+        padding: 3px 9px !important;
+        margin: 0px 5px 0px 5px;
+    
+        color: rgb(236 236 236) !important;
+    }
+    
+    .a-focus, .nav-header li a:hover {
+        border: white 2px solid !important;
+        color: white !important;
+    }
+    
+    .div-hotline a {
+    
+        color: white !important;
+        text-decoration: none;
+    
+    }
+    
+    .tel-css {
+        border: white solid 2px;
+        border-radius: 98px;
+        padding: 3px 6px;
+        font-size: 18px;
+    }
+    
+    /* end header css */
+    
+    /* section css */
+    section {
+        width: 100%;
+        height: 100%;
+        float: left;
+        position: relative;
+    }
+    
+    .main-section {
+        height: 961px;
+        width: 90%;
+        margin: auto auto;
+        background-image: url("../../images/bgr1.png");
+        background-repeat: no-repeat;
+        background-size: 110%;
+        border-radius: 27px;
+        padding-top: 100px;
+        position: relative;
+        z-index: 0;
+    
+    }
+    
+    .div-top {
+        position: relative;
+        height: 100px;
+        width: 100%;
+    }
+    
+    .div-sticker1 {
+        position: absolute;
+        top: 35px;
+        left: 0px;
+        width: 170px;
+        height: 145px;
+        background: url(../../images/logo1.png);
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .div-text1 {
+        position: absolute;
+        width: 370px;
+        height: 100px;
+        left: 200px;
+        top: 60px;
+        font-family: "iCielKoni", sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+    
+    .div-sticker2 {
+        position: absolute;
+        left: 425px;
+        top: 85px;
+        width: 144px;
+        height: 205px;
+        background: url(../../images/sticker2.png);
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .div-sticker3 {
+        position: absolute;
+        left: 630px;
+        top: -10px;
+        width: 117px;
+        height: 174px;
+        background: url(../../images/sticker3.png);
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        z-index: 0 !important;
+    
+    }
+    
+    .div-sticker4 {
+        position: absolute;
+        background: url(../../images/sticker4.png);
+        right: 0px;
+        top: 110px;
+        width: 360px;
+        height: 260px;
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        z-index: 0 !important;
+    }
+    
+    .div-sticker5 {
+        position: absolute;
+        left: -180px;
+        top: 179px;
+        width: 120px;
+        height: 170px;
+        background: url(../../images/sticker5.png);
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        z-index: 0 !important;
+    }
+    
+    .div-sticker6 {
+        position: absolute;
+        top: 95px;
+        right: -220px;
+        width: 140px;
+        height: 207px;
+        background: url(../../images/sticker8.png);
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .div-sticker7 {
+        position: absolute;
+        bottom: -165px;
+        right: -105px;
+        width: 140px;
+        height: 215px;
+        background: url(../../images/sticker7.png);
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .div-sticker8 {
+        position: absolute;
+        bottom: -140px;
+        right: 705px;
+        width: 107px;
+        height: 142px;
+        background: url(../../images/sticker8.png);
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .div-sticker9 {
+        position: absolute;
+        bottom: -25px;
+        left: -140px;
+        width: 200px;
+        height: 317px;
+        background: url(../../images/sticker-girl.png);
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        z-index: 5;
+    }
+    
+    .div-top {
+        min-height: 100px;
+    }
+    
+    .div-ticket {
+        height: 410px;
+        width: 100%;
+        position: absolute;
+        top: 275px;
+        left: 0px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .div-left, .div-right, .div-center {
+    
+        border-radius: 30px;
+    }
+    
+    .div-left {
+        position: absolute;
+        background-color: #FDE8B3;
+        width: calc(70% - 20px);
+        padding: 10px;
+        box-shadow: #FFCA7B 0px 15px 0px 0px;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .tiket-left-child {
+        border: 3px dashed #FFB489;
+        width: 100%;
+        background-color: #FFF6D4;
+        border-radius: 30px;
+        height: 100%;
+        padding: 10px;
+        line-height: 30px;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    .text-line-star {
+        width: calc(100% - 40px);
+        margin-left: 40px;
+        float: left;
+    
+    }
+    
+    .div-star {
+        filter: drop-shadow(0px 3px 0px #CF6100)
+    }
+    
+    .star1 {
+        float: left;
+        width: 30px;
+    
+        height: 40px;
+        -webkit-clip-path: polygon(49% 3%, 66% 24%, 98% 35%, 72% 50%, 77% 77%, 50% 63%, 23% 77%, 27% 49%, 2% 35%, 35% 25%);
+        clip-path: polygon(49% 3%, 66% 24%, 98% 35%, 72% 50%, 77% 77%, 50% 63%, 23% 77%, 27% 49%, 2% 35%, 35% 25%);
+        background-color: #CF6100;
+    }
+    
+    .star2 {
+        margin: 5px 5px;
+        float: left;
+        width: 20px;
+        height: 30px;
+        -webkit-clip-path: polygon(49% 3%, 66% 24%, 98% 35%, 72% 50%, 77% 77%, 50% 63%, 23% 77%, 27% 49%, 2% 35%, 35% 25%);
+        clip-path: polygon(49% 3%, 66% 24%, 98% 35%, 72% 50%, 77% 77%, 50% 63%, 23% 77%, 27% 49%, 2% 35%, 35% 25%);
+        background: linear-gradient(90deg, #FDE329 0%, #FFED78 99.99%);
+    }
+    
+    .text-line-star p {
+        width: calc(100% - 60px);
+        float: left;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 40px;
+        margin-left: 15px;
+        margin: 0;
+    }
+    
+    .tiket-right-child {
+        border: 3px dashed #FFB489;
+        width: 100%;
+        background-color: #FFF6D4;
+        border-radius: 30px;
+        height: 100%;
+        position: relative;
+    }
+    
+    .tiket-left-child-top {
+        font-size: 17px;
+    }
+    
+    .div-center {
+        position: absolute;
+        width: 96px;
+        height: 100%;
+        top: 3px;
+        left: 728px;
+        background-image: url(../../images/Vector.png);
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .div-right {
+        position: absolute;
+        padding: 10px;
+        top: 0px;
+        right: -17px;
+        z-index: 5;
+        width: calc(32% - 6px);
+        height: 100%;
+        background-color: #FDE8B3;
+        box-shadow: #FFCA7B 0px 15px 0px 0px;
+    }
+    
+    .div-tiket-child {
+    
+    
+        width: 200px;
+        height: 80px;
+        background-image: url(../../images/imgvecuaban.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    
+        margin: auto;
+        margin-top: -45px;
+        left: 28%;
+    
+    
+    
+    }
+    
+    .input-f {
+        display: flex;
+        height: 40px;
+        margin-bottom: 15px;
+    }
+    
+    .input-f>input, .input-f>select, .input-f>textarea {
+        background: #FFFFFF;
+        /* inner shadow */
+        box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+        border-radius: 16px;
+        border: none;
+        outline: none;
+        padding: 8px 10px;
+    }
+    
+    .input-format input {
+        width: 100%;
+    }
+    
+    .input-f select {
+        width: calc(100% - 45px);
+        background: #FFFFFF;
+        /* inner shadow */
+        box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+        border-radius: 16px;
+        border: none;
+        outline: none;
+        padding: 7px 10px;
+    
+    }
+    
+    .btndate {
+    
+        width: 40px;
+        margin-left: 5px;
+        height: 56px;
+        background-image: url(../../images/btndate.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .btnselect {
+    
+        width: 40px;
+        margin-left: 5px;
+        height: 56px;
+        background-image: url(../../images/btnselect.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .qty-ticket-input {
+        width: 32%;
+    
+    }
+    
+    .date-ticket-input {
+        width: calc(68% - 50px);
+        margin-left: 5px;
+    }
+    
+    .btn-order-ticket {
+        display: flex;
+    }
+    
+    .btn-order-ticket button {
+        width: 80%;
+        margin: 0 auto;
+        height: 45px;
+        font-family: "iCielKoni", sans-serif;
+        background: #FF000A;
+        outline: none;
+        border: none;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        line-height: 50px;
+        border-radius: 5px;
+        box-shadow: rgb(139 2 2) 0px 3px 1px 0px;
+    }
+    .btn-order-ticket a {
+        width: 80%;
+        margin: 0 auto;
+        height: 45px;
+        font-family: "iCielKoni", sans-serif;
+        background: #FF000A;
+        outline: none;
+        border: none;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        line-height: 50px;
+        border-radius: 5px;
+        box-shadow: rgb(139 2 2) 0px 3px 1px 0px;
+    }
+    
+    /* end section css */
+    
+    
+    /* sukien css */
+    .bgr-dark{
+        background-color: rgb(29 29 28 / 41%);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100vh;
+        z-index: 100;
+    }
+    .message-contact{
+        background-color:white ;
+        width: 350px; 
+        padding: 30px;
+        position: absolute;
+        left: 40%;
+        top: 320px;
+        z-index: 99;
+        border-radius: 20px;
+        font-family: Montserrat;
+    }
+    .close-btn-contact{
+        color: red;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .main-content {
+        background-image: url(../../images/bg-toping.png);
+    
+        background-size: 100%;
+        width: 100%;
+        height: 660px;
+        position: relative;
+    
+    
+    }
+    
+    .line-left {
+        background-image: url(../../images/lineleft.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 480px;
+        height: 226px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    
+    }
+    
+    .line-right {
+        background-image: url(../../images/lineright.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 425px;
+        height: 250px;
+        position: absolute;
+        top: -10px;
+        right: 0px;
+    }
+    
+    .text-event {
+        text-align: center;
+        font-family: iCielKoni, sans-serif;
+        font-size: 70px;
+        color: white;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 75px;
+    
+    }
+    
+    .carousel {
+        position: relative;
+    }
+    
+    .btn-prev {
+        position: absolute;
+        top: 170px;
+        left: -80px;
+    }
+    
+    .btn-next {
+        position: absolute;
+        top: 170px;
+        right: -80px;
+    }
+    
+    .card {
+        border-radius: 10px;
+    
+    }
+    
+    .card-body {
+        font-family: Montserrat, sans-serif;
+    }
+    
+    .card-img-top {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        height: 165.5px;
+    
+    }
+    
+    .card-title {
+        font-size: 23px;
+        margin-bottom: 1px;
+        font-weight: bold;
+        color: #23221F !important;
+    }
+    
+    .card-text {
+        color: #6C7272 !important;
+    }
+    
+    .card-text, .card-date {
+        font-size: 15px;
+        margin: 2px 0px;
+    
+    }
+    
+    .card-date {
+        color: #444444 !important;
+    
+    
+    }
+    
+    .card-date img {
+        vertical-align: sub;
+    }
+    
+    .card-price {
+        font-weight: bold;
+        font-size: 28px;
+        color: #FA7D09;
+    }
+    
+    .card-btn {
+        font-family: iCielKoni, sans-serif;
+        font-size: 17px;
+        padding: 15px 25px 8px 25px;
+        background: #FF000A;
+        color: white;
+        border-radius: 7px;
+        box-shadow: #7c0308 0px 2px 0px 1px
+    }
+    
+    .card-btn {
+        text-decoration: none !important;
+        border: none;
+    }
+    
+    .card-btn:hover {
+        color: white;
+    }
+    
+    .event-detail-content {
+        width: 100%;
+        background-color: #FDE8B3;
+        min-height: 500px;
+        padding: 13px;
+        border-radius: 30px;
+        font-family: Montserrat, sans-serif;
+        box-shadow: #ffca7b 0px 15px 0px 0px;
+    }
+    
+    .event-detail-child {
+        width: 100%;
+        border-radius: 30px;
+        min-height: 500px;
+        background-color: #FFF6D4;
+        border: 3px dashed #FFB489;
+    
+    }
+    
+    .event-detail-left {
+        width: 30%;
+        height: 100%;
+        float: left;
+        padding: 28px;
+    }
+    
+    .event-detail-left>img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .event-detail-right {
+        width: 70%;
+        height: 100%;
+        padding-top: 20px;
+    
+    }
+    
+    .hightlight {
+        color: #FA7D09;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    .img-100 {
+        width: 100%;
+        border-radius: 10px;
+    
+    }
+    
+    .text-col-second, .event-detail-right {
+        font-size: 15px;
+    }
+    
+    
+    /* contact css */
+    .div-contact {
+        height: 502px;
+        font-family: Montserrat, sans-serif;
+    }
+    
+    .contact-left {
+        width: calc(63% - 10px);
+        height: 100%;
+        float: left;
+        background-color: #FDE8B3;
+        border-radius: 20px;
+        padding: 15px;
+        position: relative;
+        box-shadow: #ffca7b 0px 10px 0px 0px;
+    
+    }
+    
+    .btn-order-ticket a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .contact-left-child, .box-contact-child {
+        border: 3px dashed #FFB489;
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        padding: 30px;
+        background-color: #FFF6D4;
+    }
+    
+    .box-contact-child {
+        border: 3px dashed #FFB489;
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        padding: 20px;
+        background-color: #FFF6D4;
+    }
+    
+    .text-contact {
+        font-size: 15px;
+    
+    }
+    
+    .input-name {
+        width: calc(40% - 5px);
+    }
+    
+    .input-email {
+        width: calc(60% - 5px);
+        margin-left: 10px;
+    }
+    
+    .div-input-messages {
+        width: 100%;
+        height: 150px;
+    }
+    
+    .input-message {
+        width: 100%;
+        height: 150px;
+        resize: none;
+    }
+    
+    .contact-right {
+        margin-left: 20px;
+        width: calc(37% - 10px);
+        height: 100%;
+    
+        float: left;
+    }
+    
+    .box-contact-firt {
+        width: 100%;
+        padding: 15px;
+        background-color: #FDE8B3;
+        border-radius: 20px;
+        box-shadow: #ffca7b 0px 10px 0px 0px;
+    
+    
+    }
+    
+    .box-contact-child {
+        display: flex;
+    
+    }
+    
+    .box-contact-child img {
+        margin-top: 20px;
+    }
+    
+    .text-loca {
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    
+    .text-loca p {
+        font-size: 15px;
+        font-weight: normal;
+    }
+    
+    .mg-b {
+        margin-bottom: 20px;
+    }
+    
+    .sticker-boy {
+        background-image: url(../../images/stickerboy.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 222px;
+        height: 405px;
+        position: absolute;
+        left: -180px;
+        bottom: 0px;
+    }
+    
+    .payment-content {
+        top: 0px;
+    }
+    
+    .vecuaban {
+        background-image: url(../../images/vecong.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 260px;
+        height: 60px;
+        position: absolute;
+        top: -15px;
+        left: 100px;
+    }
+    
+    .sticker-payment {
+        background-image: url(../../images/thongtintt.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 250px;
+        height: 58px;
+        position: absolute;
+        top: -15px;
+        left: 50px;
+    }
+    
+    .div-input-price {
+        width: 32%;
+    }
+    
+    .div-input-qty {
+        width: 20%;
+    }
+    
+    .div-input-date {
+        width: 32%;
+    }
+    
+    .tiket-left-child label {
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    
+    .tiket-left-child input {
+        width: 100%;
+        padding: 8px 15px !important;
+    }
+    
+    .div-input-qty input {
+        width: 80%;
+    }
+    
+    .input-ttlh {
+        width: 56% !important;
+    }
+    
+    .h490px {
+        height: 535px !important;
+    }
+    
+    .sticker-girl1 {
+        background-image: url(../../images/sticker-girl1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 200px;
+        height: 380px;
+        position: absolute;
+        bottom: 0px;
+        left: -100px;
+        z-index: 100;
+    }
+    
+    .sticker-girl2 {
+        background-image: url(../../images/sticker-girl2.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 200px;
+        height: 380px;
+        position: absolute;
+        bottom: 0px;
+        left: -150px;
+        z-index: 100;
+    }
+    
+    .stiker-custom {
+        width: 130px;
+        left: 715px;
+    }
+    
+    .w40 {
+        width: 40px;
+        float: left;
+    }
+    
+    .btnprev {
+        left: -40px;
+    }
+    
+    .btnnext {
+        right: -40px;
+    }
+    
+    .img-qr {
+        width: 100px;
+        padding-top: 20px;
+        margin: 0 auto;
+    
+    }
+    
+    .img-qr img {
+        width: 100px;
+        margin: 0 auto;
+    }
+    
+    .vecong {
+        font-size: 20px;
+        color: #FFC226;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    .qty-payment {
+        font-size: 18px;
+    }
+    
+    .btnhover:hover {
+        color: #ffd5d5;
+        background-color: #a71318;
+        transition: 0.3s;
+    }
+    
+    .btn-menu {
+        position: absolute;
+        z-index: 102;
+        top: 10px;
+        right: 15px;
+        display: none;
+    }
+    
+    .btn-menu div {
+        width: 30px;
+        height: 4px;
+        background-color: rgb(255, 255, 255);
+        margin: 5px 0;
+    
+    }
+    
+    .div-menu{
+        display: flex;
+    }
+ 
+@media (max-width:1505px ) {
+    .div-sticker6{
+        display: none;
+    }
+}
+@media (max-width:1266px ) {
+    .div-center{
+        display: none;
+    }
+    .card-btn {
+        font-size: 10px;
+        padding: 10px 15px 8px 15px;
+    }
+    .card-price {
+        font-size: 22px;
+    }
+    .div-left { 
+        width: 70%;
+        left: 0px;
+    }
+    .div-right { 
+        width: 30%;
+        right: 0px;
+    }
+    .mar-0 {
+        display: -ms-flexbox;
+        /* display: flex; */
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .div-sticker7{
+        right: -50px;
+    }
+    .div-ticket {
+        height: 465px;
+    }
+    .div-sticker6{
+        display: none;
+    }
+   
+    
+    
+    .text-line-star p {
+      
+        font-size: 18px;
+      
+        line-height: 30px;
+    }
+    .line-left,.line-right {
+        
+        width: 300px;
+    }
+    .text-event{
+        font-size: 50px;
+    }
+    .btn-prev {
+         
+        left: -50px
+    }
+    .btn-next{
+        right: -50px;
+    }
+    .btn-prev img,.btn-next img{
+        width: 45px;
+    }
+    .div-input-price,.div-input-qty,.div-input-date{
+        width: 100%; 
+    }
+
+    .block{
+        display: block !important;
+        min-height: 230px;
+    }
+    .div-input-qty,.div-input-date{
+        padding-top: 30px;
+        float: left;
+    }
+    .div-input-date{
+        padding-top: 60px;
+        float: left;
+    }
+    .div-input-qty input{
+        width: calc( 100% - 23px);
+     
+    }
+    .h-payment{
+        height: 625px !important;
+        margin: 0px;
+    }
+    .input-ttlh {
+        width: 100% !important;
+    }
+    .sticker-payment{
+        width: 215px;
+        left: 10px;
+    }
+}
+@media (max-width:1024px ) {
+    .div-ticket {
+        height: 465px;
+    }
+    .div-sticker6{
+        display: none;
+    }
+   
+    
+    
+    .text-line-star p {
+      
+        font-size: 18px;
+      
+        line-height: 30px;
+    }
+    .line-left,.line-right {
+        
+        width: 300px;
+    }
+    .text-event{
+        font-size: 50px;
+    }
+    .btn-prev {
+         
+        left: -50px
+    }
+    .btn-next{
+        right: -50px;
+    }
+    .btn-prev img,.btn-next img{
+        width: 45px;
+    }
+}
+
+@media(max-width:992px ) {
+    body {
+        height: 2000px;
+    }
+    .btn-menu {
+        display: block;
+    }
+    .div-sticker3, .div-sticker2, .div-sticker9, .div-sticker7, .div-sticker8, .div-sticker6 {
+        display: none;
+    }
+
+    .div-sticker5 {
+        left: 0px;
+        top: 40px;
+        width: 50px;
+        height: 70px;
+    }
+
+    .div-logo img {
+        width: 100px;
+        height: 40px;
+    }
+
+    .navigation {
+        height: 70px;
+        transition: .8s;
+    }
+
+    .div-menu {
+        width: 100%;
+        padding: 30px 60px;
+        margin: 0 auto;
+        z-index: 102;
+        position: absolute;
+        display: none;
+    }
+
+    .div-sticker1 {
+        top: -25px;
+        left: 0px;
+        width: 70px;
+        height: 60px;
+    }
+
+    .div-text1 {
+        width: 145px;
+        height: 60px;
+        left: 85px;
+        top: -15px;
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .div-tel {
+        display: none !important;
+    }
+
+    .text-line-star {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .text-line-star p {
+        font-size: 13px;
+        line-height: 18px;
+        width: calc(100% - 20px);
+    }
+
+    .star1, .star2 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .tiket-left-child-top {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+   
+
+    /* event reponsive */
+    .line-left, .line-right {
+        width: 130px;
+        top: -50px;
+        height: 80px;
+    }
+    .hightlight {
+        font-size: 18px;
+    }
+    .text-event {
+        font-size: 30px;
+        padding-top: 15px;
+    }
+
+    .controls-top-t, .sticker-boy, .div-center {
+        display: none;
+    }
+
+    .btn-prev {
+        left: -20px;
+        top: 0px;
+    }
+
+    .btn-next {
+        top: 0px;
+        right: -20px;
+    }
+
+  
+
+    .main-section {
+        height: 1650px;
+    }
+
+    .div-left {
+        width: 100%;
+        left: 15px;
+    }
+
+    .div-right {
+        width: 100%;
+        left: 15px;
+        top: 565px;
+    }
+    .h700px {
+        
+        top: 700px;
+    }
+
+    .div-ticket {
+        height: 500px;
+        
+            top: 50px;
+        
+    }
+
+    .contact-left {
+        width: 100%;
+    }
+
+    .form-contact input {
+        width: 100%;
+    }
+
+    .input-cus {
+        display: block;
+        height: 85px;
+    }
+    
+
+    .input-email {
+        margin: 10px 0px;
+    }
+
+    .div-contact {
+        height: 785px;
+    }
+    .btn-order-ticket{
+        margin-top: 85px !important;
+    }
+    .contact-right {
+        width: 100%;
+        margin: 20px 0px;
+        
+    }
+    .pt-80{
+        padding-top: 80px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .card-text, .card-date {
+        font-size: 12px;
+    }
+    .card-price { 
+        font-size: 20px;
+    }
+    .event-detail-left ,.event-detail-right{
+        width: 100%;
+    }
+    .mar-0 {
+        display: -ms-flexbox;
+        /* display: flex; */
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .div-tiket-child {
+        width: 160px;
+    }
+    .controls-top{
+        display: block;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 150px;
+    }
+    .btn-next img ,.btn-prev img {
+        width: 25px; 
+    }
+    .div-left,.div-right{
+        left: 0px;
+    }
+  .h-55{
+      height: 55%;
+  }
+  .top360{
+      top: 360px;
+  }
+    
+}
+ 
+@media(max-width:768px ) {
+    .card-price {
+        font-size: 15px;
+    }
+    .card-btn{
+        font-size: 13px;
+        padding: 15px 25px 10px 25px;
+    }
+.h1500px{
+    height: 1600px  !important;
+}}
+@media(max-width:533px ) {
+    .h-55{
+        height: 90%;
+    }
+    .top360{
+        top: 560px;
+    } 
+}
+@media(max-width:480px ) {
+.sticker-girl1,.sticker-girl2{
+    display: none;
+}
+.tiket-left-child >div{
+    padding-left: 0px !important;
+}
+.vecuaban{
+    left: 0px;
+}
+.pad-5{
+    padding: 5px !important;
+}
+.sticker-payment{
+    left: 0px;
+}
+.sticker-payment, .vecuaban{
+    width: 200px;
+}
+.btn-double a {
+    width: 100% !important; 
+    float: left;
+    margin-top: 20px;
+}
+.btn-double {
+    height: 400px;
+}
+.marign-0{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+}
